@@ -94,5 +94,8 @@ React: JavaScript library for building user interfaces.
 JSON Server: Simple backend for RESTful API mocking.
 CSS: Styling for the application.
 
+# deploymeny link
+https://phase-2-code-challenge-bot-battlr-xhlj.vercel.app/
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
