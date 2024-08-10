@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkgray;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.bot-collection, .bot-army {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.bot-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bot-card {
+  background-color:gold;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #555;
+}
+
+p {
+  margin: 5px 0;
+  word-wrap: break-word; 
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.discharge-button {
+  background-color: #ff4d4f;
+  color: white;
+  margin-top: 5px;
+}
+
+.discharge-button:hover {
+  background-color: #e04142;
+}
